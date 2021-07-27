@@ -2,6 +2,52 @@ body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
 }
+/*navbar start*/
+
+header {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0b0d17;
+}
+header h2 {
+  color: orange;
+  padding-left: 20px;
+  cursor: pointer;
+}
+.logo {
+  color: lightgrey;
+}
+li a {
+  font-weight: 700;
+  font-size: 16px;
+  color: lightgrey;
+  text-decoration: none;
+}
+.nav-link {
+  list-style: none;
+}
+.nav-link li {
+  display: inline-block;
+  padding: 0 20px;
+}
+.nav-button {
+  background: linear-gradient(90deg, orange, tomato);
+  box-shadow: 3px 1px 15px tomato;
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  margin-right: 20px;
+  font-weight: 700;
+}
+.nav-button:hover {
+  background: linear-gradient(90deg, #00ff8f, #00a1ff);
+}
+/*navbar ends*/
+
 /*First part starts */
 .top-text {
   padding-top: 100px;
@@ -9,14 +55,14 @@ body {
 .name {
   color: orange;
 }
-h1 {
+.half-part h1 {
   font-size: 55px;
   color: gray;
-  line-height: 30px;
+  line-height: 40px;
 }
 .flexible-container {
   display: flex;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 .half-part {
   width: 40%;
@@ -93,13 +139,15 @@ h1 {
 }
 
 .food-box:hover {
-  background-color: black;
+  background-color: #0b0d17;
   color: white;
   box-shadow: 10px 10px 15px lightgrey, -10px -10px 15px lightgrey;
   transition: 0.2s linear;
 }
 .box-design:hover {
   width: 27%;
+
+  cursor: pointer;
 }
 /*3rd part ends */
 
@@ -122,10 +170,12 @@ h1 {
 /*4th part ends */
 
 /*5th part starts */
+footer {
+  background-color: #0b0d17;
+  height: 700px;
+}
 .fifth-part {
   text-align: center;
-  background-color: #0b0d17;
-  height: 250px;
 }
 .fifth-part h2 {
   padding-top: 35px;
@@ -138,5 +188,21 @@ h1 {
 .fifth-part p {
   padding-top: 35px;
   color: lightgrey;
+}
+#contact {
+  text-align: center;
+  margin-top: 200px;
+}
+#contact h3 {
+  color: orange;
+}
+#contact small {
+  color: lightgrey;
+}
+#contact p {
+  color: orange;
+}
+.mail {
+  cursor: pointer;
 }
 /*5th part ends */
