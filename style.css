@@ -1,0 +1,142 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+/*First part starts */
+.top-text {
+  padding-top: 100px;
+}
+.name {
+  color: orange;
+}
+h1 {
+  font-size: 55px;
+  color: gray;
+  line-height: 30px;
+}
+.flexible-container {
+  display: flex;
+  margin-bottom: 100px;
+}
+.half-part {
+  width: 40%;
+  padding-left: 9%;
+  padding-top: 6%;
+  text-align: justify;
+}
+.first-model {
+  width: 80%;
+}
+.half-part p {
+  color: gray;
+  padding-bottom: 50px;
+}
+.button {
+  background: linear-gradient(90deg, orange, tomato);
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 15px 25px;
+  border-radius: 30px;
+  font-weight: 600;
+  box-shadow: 7px 3px 15px tomato;
+  letter-spacing: 2px;
+  transition: 0.1s linear;
+}
+.button:hover {
+  background: linear-gradient(90deg, #00ff8f, #00a1ff);
+  box-shadow: 7px 5px 15px #00ff8f;
+  padding: 17px 27px;
+}
+/*First part end */
+
+/*2nd part starts */
+.second-part {
+  background-image: url(images/background/bg-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+.second-model {
+  width: 40%;
+  padding-left: 20%;
+}
+.half-part h2 {
+  font-size: 30px;
+  color: gray;
+}
+.about-text {
+  width: 60%;
+}
+/*2nd part end */
+
+/*3rd part starts */
+.recipes-text {
+  text-align: center;
+  color: gray;
+}
+
+.box-design {
+  width: 25%;
+  padding-left: 6%;
+  padding-top: 5%;
+}
+.box-design img {
+  width: 100%;
+  border-radius: 26px;
+}
+.food-box {
+  padding: 22px;
+  box-shadow: 10px 10px 15px lightgrey, -10px -10px 15px lightgrey;
+  border-radius: 20px;
+}
+
+.food-box:hover {
+  background-color: black;
+  color: white;
+  box-shadow: 10px 10px 15px lightgrey, -10px -10px 15px lightgrey;
+  transition: 0.2s linear;
+}
+.box-design:hover {
+  width: 27%;
+}
+/*3rd part ends */
+
+/*4th part starts */
+.social-reach {
+  width: 85%;
+  margin-left: 6%;
+  padding: 20px;
+  box-shadow: 10px 10px 15px lightgrey, -10px -10px 15px lightgrey;
+  border-radius: 15px;
+}
+.amount {
+  padding-left: 13%;
+  padding-right: 10%;
+}
+.amount h2 {
+  font-size: 40px;
+  text-align: center;
+}
+/*4th part ends */
+
+/*5th part starts */
+.fifth-part {
+  text-align: center;
+  background-color: #0b0d17;
+  height: 250px;
+}
+.fifth-part h2 {
+  padding-top: 35px;
+  color: orange;
+  font-size: 25px;
+}
+.fifth-part span {
+  color: lightgrey;
+}
+.fifth-part p {
+  padding-top: 35px;
+  color: lightgrey;
+}
+/*5th part ends */
